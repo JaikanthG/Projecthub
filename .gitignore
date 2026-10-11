@@ -1,0 +1,88 @@
+# ============================================================
+# Project Hub - Git Ignore Configuration
+# ============================================================
+
+# Virtual Environments
+myenv/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Streamlit Local Cache & Credentials
+.streamlit/secrets.toml
+
+# Databases & SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded User Documents & Temp Files
+uploads/
+uploaded_documents/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# IDEs and Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.gemini/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
